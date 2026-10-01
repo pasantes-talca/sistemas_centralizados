@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0439ac">
+  <title>Portal de Sistemas | Talca</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#contenido">Ir al contenido</a>
+  <header class="site-header"><div class="header-inner">
+    <a class="brand" href="/" aria-label="Talca, inicio">
+      <img id="brand-logo" class="brand-logo" alt="Talca" width="110" height="50" hidden>
+      <span id="brand-name" class="brand-name">TALCA</span><span class="brand-caption">PORTAL INTERNO</span>
+    </a><span class="internal"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3M12 14v3"/></svg>Red interna</span>
+  </div></header>
+  <main id="contenido">
+    <section class="intro" aria-labelledby="portal-title"><div class="intro-copy"><div class="eyebrow">NUESTRO ESPACIO DE TRABAJO</div><h1 id="portal-title">Portal de Sistemas</h1><p>Acceso centralizado a las herramientas internas.</p></div><div class="intro-art" aria-hidden="true"><span></span><span></span><span></span><span></span></div></section>
+    <section aria-labelledby="applications-title">
+      <div class="section-heading"><div><h2 id="applications-title">Sistemas disponibles <span id="count">—</span></h2><p>Elegí la herramienta que necesitás para continuar.</p></div><label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><input id="search" type="search" placeholder="Buscar sistema..." aria-label="Buscar por nombre, descripción o categoría" aria-controls="grid"></label></div>
+      <div id="filters" class="filters" role="group" aria-label="Filtrar por categoría"></div>
+      <p id="message" role="status">Cargando herramientas…</p>
+      <div id="grid" class="grid"></div>
+      <div class="info"><span class="info-icon" aria-hidden="true">i</span><p>Cada sistema se abre en una nueva pestaña y mantiene sus permisos habituales.</p><span id="last-check">Verificando disponibilidad…</span></div>
+    </section>
+    <noscript>Activá JavaScript para visualizar los sistemas del portal.</noscript>
+  </main>
+  <footer><div class="footer-inner"><span><strong>Talca</strong> · Portal de Sistemas Internos</span><span>© <span id="year"></span> Talca</span></div></footer>
+</body>
+</html>

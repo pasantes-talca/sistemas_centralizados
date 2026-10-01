@@ -1,0 +1,6 @@
+[
+  {"id":"stock","nombre":"Stock Talca","descripcion":"Acceso al panel operativo de stock.","url":"http://10.242.4.13:8000/","icono":"cajas","categoria":"Operaciones"},
+  {"id":"sistema-2","nombre":"Logística y Expedición","descripcion":"Acceso al sistema de logística y expedición.","url":"http://10.242.4.13:8001/login","icono":"aplicacion","categoria":"Herramientas"},
+  {"id":"tablero","nombre":"Tablero de Comando","descripcion":"Consulta del tablero de indicadores de Talca.","url":"http://10.242.4.13:8801/","icono":"grafico","categoria":"Reportes"},
+  {"id":"calidad","nombre":"Laboratorio de Calidad","descripcion":"Acceso al laboratorio de calidad y control de procesos.","url":"http://10.242.4.13:8090/calidad","icono":"escudo","categoria":"Calidad"}
+]

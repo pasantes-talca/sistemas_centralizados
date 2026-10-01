@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env
+.preview-browser/
+reference.html
+reference.png
+preview-*.png
