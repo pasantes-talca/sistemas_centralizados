@@ -121,7 +121,7 @@ def make_handler(systems, monitor):
 def main():
     try:
         systems = load_systems(os.environ.get("SYSTEMS_CONFIG", ROOT / "sistemas.json"))
-        host, port = os.environ.get("HOST", "0.0.0.0"), int(os.environ.get("PORT", "8080"))
+        host, port = os.environ.get("HOST", "0.0.0.0"), int(os.environ.get("PORT", "8081"))
         if not 1 <= port <= 65535:
             raise ValueError("PORT debe estar entre 1 y 65535")
         interval = max(15, float(os.environ.get("HEALTH_INTERVAL", "60")))
